@@ -3,13 +3,13 @@ console.log("🚀 ~ baseUrl:", baseUrl);
 
 document.getElementById("index").addEventListener("click", function (event) {
 	event.preventDefault();
-	window.location.href = baseUrl + "./index.html";
+	window.location.href = baseUrl + "/./index.html";
 	console.log("diklik");
 });
 
 document.getElementById("food").addEventListener("click", function (event) {
 	event.preventDefault();
-	const linkfood = window.location.href = "./pages/food.html";
+	const linkfood = window.location.href = baseUrl + "/./pages/food.html";
 	console.log(linkfood)
 });
 
