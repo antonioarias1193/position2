@@ -1,0 +1,66 @@
+*{
+    /* border: 1px solid red; */
+}
+
+.navbar{
+    transition: 0.2s;
+}
+
+.navbar .Nav_links {
+    text-decoration: underline;
+    text-decoration-color: black; /* Warna garis bawah */
+    text-decoration-thickness: 1px;
+}
+
+.navbar .Link_dropdown {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+/* images */
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (min-width: 750px) {
+    .images {
+        width: 700px;
+        height: 400px;
+        background-position: center;
+    }
+
+    .content_Text{
+        width: 400px;
+        position: absolute;
+        right: 10px;
+        padding: 50px;
+        color: white;
+        background-color: rgb(187, 90, 73);
+    }
+}
+@media screen and (max-width: 750px) {
+    .images {
+        width: 80%;
+        height: 400px;
+        background-position: center;
+    }
+
+    .content_Text{
+        width: 50%;
+        position: absolute;
+        right: 10px;
+        padding: 50px;
+        color: white;
+        background-color: rgb(187, 90, 73);
+    }
+}
